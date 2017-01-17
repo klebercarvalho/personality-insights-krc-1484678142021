@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: personality-insights-krc
+  host: personality-insights-krc
+  disk_quota: 1024M
+  services:
+  - personality-insights-krc-personality_insights
